@@ -1,7 +1,15 @@
 <style lang="less" src="./profile.less" scoped></style>
 <template>
-  <div class="page-profile">
-    <h2>我的 页的内容</h2>
+  <div class="profile">
+    <div class="green"></div>
+
+    <div class="content">
+      <div class="content-item user-info">
+        <div class="user-img"></div>
+        <div></div>
+      </div>
+      <div class="content-item">我的服务</div>
+    </div>
 
     <!-- 底部的固定导航栏 -->
     <Footer-nav></Footer-nav>
