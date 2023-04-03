@@ -26,14 +26,26 @@
         </div>
       </div>
       <div class="box">
-        <div class="gray box-item">讲座信息</div>
-        <div class="gray box-item">预约入口</div>
-        <div class="gray box-item">反馈交流</div>
+        <div class="box-item">
+          <img src="/static/images/info.svg" alt="">
+          <div>讲座信息</div>
+        </div>
+        <div class="box-item">
+          <img src="/static/images/book.svg" alt="">
+          <div>预约入口</div>
+        </div>
+        <div class="box-item">
+          <img src="/static/images/feedback.svg" alt="">
+          <div>反馈交流</div>
+        </div>
       </div>
-      <div class="gray content-item">其他模块</div>
-      <div class="gray content-item">其他模块</div>
-      <div class="gray content-item">其他模块</div>
-      <div class="gray content-item">其他模块</div>
+      <!-- <div class="gray content-item"></div>
+      <div class="gray content-item"></div>
+      <div class="gray content-item"></div>
+      <div class="gray content-item"></div> -->
+      <div class="content-item" v-for="index in 6">
+        <img width="100%" height="100%" :src="`/static/images/school${index}.jpg`" alt="">
+      </div>
       <div></div>
     </div>
     <!-- 底部的固定导航栏 -->

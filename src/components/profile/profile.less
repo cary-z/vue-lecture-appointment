@@ -6,31 +6,57 @@
 
 .green {
     height: 400px;
-    background-color: green;
+    background-color: #578182;
 }
 
 .content {
     padding: 0 20px;
     .content-item {
-        height: 200px;
+        
         border-radius: 20px;
         background-color: #fff;
+    }
+    .service {
+        padding: 20px;
+        .title {
+            font-size: 28px; 
+        }
+        .icons {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .icon-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-basis: 25%;
+            padding: 20px;
+            img {
+                margin-bottom: 5px;
+            }
+            .text {
+                font-size: 28px;
+                color: #8E8E8E;
+            }
+        }
     }
     .content-item + .content-item {
         margin-top: 20px;
     }
 
     .user-info {
+        height: 200px;
         margin-top: -100px;
         position: relative;
         .user-img {
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            background-color: rgb(217, 217, 217);
             position: absolute;
             left: 50%;
             transform: translateX(-50%) translateY(-50%);
+            background: #F0F0F0 url('/static/images/profile.svg') center center no-repeat;
+            background-size: 60% 60%;
         }
     }
 }

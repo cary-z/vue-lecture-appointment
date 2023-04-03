@@ -8,7 +8,24 @@
         <div class="user-img"></div>
         <div></div>
       </div>
-      <div class="content-item">我的服务</div>
+      <div class="content-item service">
+        <div class="title">我的服务</div>
+        <div class="icons">
+          <div class="icon-item">
+            <img class="icon" src="/static/images/history.svg" alt="">
+            <div class="text">讲座记录</div>
+          </div>
+          <div class="icon-item">
+            <img src="/static/images/help.svg" alt="">
+            <div class="text">帮助中心</div>
+          </div>
+          <!-- <div class="icon-item">领券中心</div>
+          <div class="icon-item">领券中心</div>
+          <div class="icon-item">领券中心</div>
+          <div class="icon-item">领券中心</div>
+          <div class="icon-item">领券中心</div> -->
+        </div>
+      </div>
     </div>
 
     <!-- 底部的固定导航栏 -->
